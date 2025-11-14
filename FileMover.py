@@ -25,6 +25,7 @@ items=os.listdir(sourceF)
 print(items)
 # shutil.move(sourceF, desti)
 source1=" "
+
 for i in items:
     source1=sourceF+"\\"+i
     print(source1)
